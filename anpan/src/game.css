@@ -1,0 +1,40 @@
+.game-container{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.title{
+    color: red;
+    font-size: 3rem;
+    margin-top: 10%;
+}
+
+.timer{
+    color: red;
+    font-size: 2rem;
+    margin-top: 10%;
+}
+
+.score{
+    color: red;
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+.input{
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    color: black;
+    font-size: 50px;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    border: none;
+}

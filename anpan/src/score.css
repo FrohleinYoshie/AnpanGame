@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* 背景色をブラックに設定 */
+}
+
+.score-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* スクロールを可能に */
+    color: red;
+}
+
+.title {
+    font-size: 3rem;
+    margin-top: 10%;
+    color: red;
+    top: 0;
+}
+
+.anpan-background {
+    font-size: 2rem;
+    -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+}
+
+.restart-button {
+    position: absolute;
+    top: 24%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    color: black;
+    font-size: 50px;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    border: none;
+}
